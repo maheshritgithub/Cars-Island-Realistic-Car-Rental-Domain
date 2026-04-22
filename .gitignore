@@ -1,0 +1,237 @@
+## ============================================================
+## Cars Island - Realistic Car Rental Domain
+## ROOT-LEVEL .gitignore
+## Covers: repo root + src/web-api solution
+## ============================================================
+
+# ---------------------------------------------------------------
+# VISUAL STUDIO - FOLDER (root + nested)
+# ---------------------------------------------------------------
+.vs/
+**/.vs/
+
+# ---------------------------------------------------------------
+# USER & SOLUTION FILES
+# ---------------------------------------------------------------
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ---------------------------------------------------------------
+# BUILD RESULTS
+# ---------------------------------------------------------------
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+
+# ---------------------------------------------------------------
+# .NET / MSBUILD
+# ---------------------------------------------------------------
+project.lock.json
+project.fragment.lock.json
+*.VisualState.xml
+TestResult.xml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ---------------------------------------------------------------
+# NUGET
+# ---------------------------------------------------------------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ---------------------------------------------------------------
+# ASP.NET CORE - RUNTIME & PUBLISH
+# ---------------------------------------------------------------
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishsettings
+publish/
+wwwroot/dist/
+
+# ---------------------------------------------------------------
+# ENTITY FRAMEWORK / DATABASE
+# ---------------------------------------------------------------
+*.mdf
+*.ldf
+*.ndf
+
+# ---------------------------------------------------------------
+# SECRETS & CONFIG (NEVER COMMIT THESE)
+# ---------------------------------------------------------------
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+appsettings.Staging.json
+secrets.json
+**/secrets/**
+*.pfx
+*.p12
+*.key
+*.pem
+*.cer
+*.build.csdef
+csx/
+
+# ---------------------------------------------------------------
+# ROSLYN / COMPILER CACHE
+# ---------------------------------------------------------------
+*.ide/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.Cache
+ipch/
+
+# ---------------------------------------------------------------
+# COMPILED OUTPUT
+# ---------------------------------------------------------------
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ---------------------------------------------------------------
+# RESHARPER
+# ---------------------------------------------------------------
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ---------------------------------------------------------------
+# RIDER (JETBRAINS)
+# ---------------------------------------------------------------
+.idea/
+**/.idea/
+*.sln.iml
+
+# ---------------------------------------------------------------
+# NCRUNCH
+# ---------------------------------------------------------------
+_NCrunch_*
+.*crunch*.local.xml
+*.ncrunchproject
+
+# ---------------------------------------------------------------
+# DOTCOVER / TEAMCITY
+# ---------------------------------------------------------------
+*.dotCover
+_TeamCity*
+
+# ---------------------------------------------------------------
+# NODE / FRONTEND
+# ---------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.sass-cache/
+
+# ---------------------------------------------------------------
+# DOCKER
+# ---------------------------------------------------------------
+docker-compose.override.yml
+
+# ---------------------------------------------------------------
+# OS-GENERATED
+# ---------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ---------------------------------------------------------------
+# VS CODE
+# ---------------------------------------------------------------
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ---------------------------------------------------------------
+# MISC
+# ---------------------------------------------------------------
+*.dbmdl
+*.dbproj.schemaview
+[Ss]tyle[Cc]op.*
+StyleCop.Cache
+_UpgradeReport_Files/
+UpgradeLog*.XML
+UpgradeLog*.htm
+FakesAssemblies/
+Generated_Code/
+AutoTest.Net/
+AppPackages/
+ClientBin/
+sql/
+logs/
+git_stats/
+~$*
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+$tf/
+*.gpState
+.JustCode
+*.mm.*
+[Ee]xpress/
+_Chutzpah*
+*.psess
+*.vsp
+*.vspx
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
